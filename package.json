@@ -1,0 +1,20 @@
+{
+  "name": "coffescriptdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "coffeescript": "^2.3.2",
+    "express": "^4.16.4",
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss styles.scss   styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
