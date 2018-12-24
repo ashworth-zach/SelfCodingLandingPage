@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+.container {
+  background-color: #232323;
+  align-items: center;
+  justify-content: center;
+}
+.container svg {
+  max-width: 45rem;
+  width: 100%;
+  height: auto;
+  fill: none;
+  stroke: white;
+  stroke-width: 4;
+  display: block;
+}
+.container svg tspan > tspan {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: -1500;
+}
+.container svg tspan > tspan:nth-of-type(1) {
+  -webkit-animation: draw 300ms 150ms forwards;
+          animation: draw 300ms 150ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(2) {
+  -webkit-animation: draw 300ms 300ms forwards;
+          animation: draw 300ms 300ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(3) {
+  -webkit-animation: draw 300ms 450ms forwards;
+          animation: draw 300ms 450ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(4) {
+  -webkit-animation: draw 300ms 600ms forwards;
+          animation: draw 300ms 600ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(5) {
+  -webkit-animation: draw 300ms 750ms forwards;
+          animation: draw 300ms 750ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(6) {
+  -webkit-animation: draw 300ms 900ms forwards;
+          animation: draw 300ms 900ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(7) {
+  -webkit-animation: draw 300ms 1050ms forwards;
+          animation: draw 300ms 1050ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(8) {
+  -webkit-animation: draw 300ms 1200ms forwards;
+          animation: draw 300ms 1200ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(9) {
+  -webkit-animation: draw 300ms 1350ms forwards;
+          animation: draw 300ms 1350ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(10) {
+  -webkit-animation: draw 300ms 1500ms forwards;
+          animation: draw 300ms 1500ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(11) {
+  -webkit-animation: draw 300ms 1650ms forwards;
+          animation: draw 300ms 1650ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(12) {
+  -webkit-animation: draw 300ms 1800ms forwards;
+          animation: draw 300ms 1800ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(13) {
+  -webkit-animation: draw 300ms 1950ms forwards;
+          animation: draw 300ms 1950ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(14) {
+  -webkit-animation: draw 300ms 2100ms forwards;
+          animation: draw 300ms 2100ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(15) {
+  -webkit-animation: draw 300ms 2250ms forwards;
+          animation: draw 300ms 2250ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(16) {
+  -webkit-animation: draw 300ms 2400ms forwards;
+          animation: draw 300ms 2400ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(17) {
+  -webkit-animation: draw 300ms 2550ms forwards;
+          animation: draw 300ms 2550ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(18) {
+  -webkit-animation: draw 300ms 2700ms forwards;
+          animation: draw 300ms 2700ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(19) {
+  -webkit-animation: draw 300ms 2850ms forwards;
+          animation: draw 300ms 2850ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(20) {
+  -webkit-animation: draw 300ms 3000ms forwards;
+          animation: draw 300ms 3000ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(21) {
+  -webkit-animation: draw 300ms 3150ms forwards;
+          animation: draw 300ms 3150ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(22) {
+  -webkit-animation: draw 300ms 3300ms forwards;
+          animation: draw 300ms 3300ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(23) {
+  -webkit-animation: draw 300ms 3450ms forwards;
+          animation: draw 300ms 3450ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(24) {
+  -webkit-animation: draw 300ms 3600ms forwards;
+          animation: draw 300ms 3600ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(25) {
+  -webkit-animation: draw 300ms 3750ms forwards;
+          animation: draw 300ms 3750ms forwards;
+}
+
+@-webkit-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+/* The typing effect */
+.typewriter h1 {
+  display: block;
+  color: white;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  -webkit-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+          animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@-webkit-keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: lime;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
