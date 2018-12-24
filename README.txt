@@ -1,3 +1,2 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/ashworth-zach/pen/vvXqxd.
-
- 
+View Codepen: https://codepen.io/ashworth-zach/pen/vvXqxd.
+simple codepen-made splash page with a node server.
