@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss styles.scss   styles.css"
+    "build-css": "node-sass --include-path scss static/scss/style.scss   static/css/style.scss"
   },
   "keywords": [],
   "author": "",
