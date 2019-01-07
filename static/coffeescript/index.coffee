@@ -5,7 +5,9 @@ body {
   font-size: 13px; line-height: 1.4;
   -webkit-font-smoothing: subpixel-antialiased;
 }
-
+.container{
+height:100px;
+}
 
 pre em:not(.comment) { font-style: normal; }
 
@@ -29,66 +31,6 @@ box-shadow:20px 20px 50px 15px grey;
   transform: skewY(2deg);
 }
 
-.loader,
-.loader:before,
-.loader:after {
-  background: #ffffff;
-  -webkit-animation: load1 1s infinite ease-in-out;
-  animation: load1 1s infinite ease-in-out;
-  width: 1em;
-  height: 4em;
-}
-.loader {
-  color: #ffffff;
-  text-indent: -9999em;
-  margin: 88px auto;
-  position: relative;
-  font-size: 11px;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-.loader:before,
-.loader:after {
-  position: absolute;
-  top: 0;
-  content: '';
-}
-.loader:before {
-  left: -1.5em;
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-.loader:after {
-  left: 1.5em;
-}
-@-webkit-keyframes load1 {
-  0%,
-  80%,
-  100% {
-    box-shadow: 0 0;
-    height: 4em;
-  }
-  40% {
-    box-shadow: 0 -2em;
-    height: 5em;
-  }
-}
-@keyframes load1 {
-  0%,
-  80%,
-  100% {
-    box-shadow: 0 0;
-    height: 4em;
-  }
-  40% {
-    box-shadow: 0 -2em;
-    height: 5em;
-  }
-} 
-
 .container{
 box-shadow:20px 20px 50px 15px grey; 
 background-color:blue;
@@ -106,6 +48,7 @@ background-color:red;
   box-sizing: border-box;
   border-radius: 3px;
   transform: skewY(-2deg);
+  height:90%;
 }
 
 
@@ -115,11 +58,24 @@ background-color:red;
   --speed: 5s;
 }
 
-.test::before{
+.Frontend::before{
 color:white;
-content:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nisi possimus adipisci magni in illum voluptates dolor, assumenda pariatur iusto, omnis cum eaque delectus reprehenderit eligendi dolorem officiis commodi molestiae temporibus vel unde deserunt iste et. Nihil sint ratione fuga dolorem aliquid, dolor cupiditate temporibus quisquam provident nemo hic maiores!";
-color:grey;
+content:"Frontend";
 }
+.github::before{color:white;content:"See my pinned repositories on github for projects";}
+.react::before{content:"React";}
+.angular::before{content:"Angular";}
+.js::before{content:"Javascript and JQuery";}
+.backend::before{color:white;content:"Backend"}
+.flask::before{content:"Flask";}
+.django::before{content:"Django";}
+.asp::before{content:".Net, and Entity framework";}
+.mean::before{content:"Full stack MEAN";}
+.databases::before{color:white;content:"Databases";}
+.mongo::before{content:"MongoDB";}
+.mysql::before{content:"MySQL";}
+
+
 
 a{
 display:block;
